@@ -5,7 +5,7 @@ const initialState = {
   currentFhirServer: '',
   currentMetadata: null,
   // defaultFhirServer: 'https://launch.smarthealthit.org/v/r2/fhir',
-  defaultFhirServer: 'https://hapi.fhir.tw/fhir',
+  defaultFhirServer: 'http://hapi.fhir.org/baseR4',
   fhirVersion: '1.0.2',
   isDefaultFhirServer: true,
   accessToken: null,
