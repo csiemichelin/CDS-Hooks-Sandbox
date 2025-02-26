@@ -1,12 +1,22 @@
 import * as types from '../actions/action-types';
 
 const initialState = {
-  defaultPatientId: 'smart-1288992',
-  defaultUser: 'Practitioner/COREPRACTITIONER1',
+  // defaultPatientId: 'smart-1288992',
+  // defaultUser: 'Practitioner/COREPRACTITIONER1',
+  // currentUser: '',
+  // currentPatient: {
+  //   id: 'smart-1288992',
+  //   name: 'Daniel X. Adams',
+  //   birthDate: '1925-12-23',
+  //   patientResource: {},
+  //   conditionsResources: [],
+  // },
+  defaultPatientId: '1936588',
+  defaultUser: 'Practitioner/1',
   currentUser: '',
   currentPatient: {
-    id: 'smart-1288992',
-    name: 'Daniel X. Adams',
+    id: '1936588',
+    name: '太郎',
     birthDate: '1925-12-23',
     patientResource: {},
     conditionsResources: [],
